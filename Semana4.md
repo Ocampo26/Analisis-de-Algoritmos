@@ -52,9 +52,12 @@ Brindar una **base matemática sólida** para expresar la **complejidad algorít
 ## 🧠 Conclusiones conjuntas
 
 - Las **notaciones asintóticas** son esenciales para **evaluar y comparar algoritmos**.
+
 - Tanto **Cormen** como **Brassard** presentan formalismos similares pero con enfoques distintos.
 - Al diseñar algoritmos, se prefiere siempre un **orden de crecimiento más bajo**, especialmente en el **peor caso**.
 - Como resumen:
 
 > “En algoritmos, lo que más importa no es el número exacto de operaciones, sino cómo este número crece con el tamaño de la entrada.” — *Brassard & Bratley*
+
+![Semana_7](https://github.com/user-attachments/assets/dbcdf59f-82f0-4d37-a11f-d2202dc0551b)
 
