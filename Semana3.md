@@ -63,7 +63,63 @@ POTENCIA(x, n)
     else:
         return x * POTENCIA(x, n - 1)
 ```
+```java
+public class MergeSort {
+
+    // Método para mezclar (merge) dos subarreglos de A[]
+    // El primer subarreglo es A[p..q]
+    // El segundo subarreglo es A[q+1..r]
+    public static void merge(int[] A, int p, int q, int r) {
+        int nL = q - p + 1; // longitud del subarreglo izquierdo
+        int nR = r - q;     // longitud del subarreglo derecho
+
+        // Crear arreglos temporales para L[] y R[]
+        int[] L = new int[nL];
+        int[] R = new int[nR];
+
+        // Copiar datos a los arreglos temporales L[] y R[]
+        for (int i = 0; i < nL; i++) {
+            L[i] = A[p + i];
+        }
+        for (int j = 0; j < nR; j++) {
+            R[j] = A[q + 1 + j];
+        }
+
+        // Mezclar los arreglos temporales de nuevo en A[p..r]
+        int i = 0; // Índice inicial para L[]
+        int j = 0; // Índice inicial para R[]
+        int k = p; // Índice inicial para A[]
+
+        while (i < nL && j < nR) {
+            if (L[i] <= R[j]) {
+                A[k] = L[i];
+                i++;
+            } else {
+                A[k] = R[j];
+                j++;
+            }
+            k++;
+        }
+
+        // Copiar los elementos restantes de L[], si hay alguno
+        while (i < nL) {
+            A[k] = L[i];
+            i++;
+            k++;
+        }
+
+        // Copiar los elementos restantes de R[], si hay alguno
+        while (j < nR) {
+            A[k] = R[j];
+            j++;
+            k++;
+        }
+    }
+}
+```
+
 ![semana3__3](https://github.com/user-attachments/assets/5ee71930-98b4-4ce3-8c00-17b502207878)
 ![Semana3_](https://github.com/user-attachments/assets/e0e6902c-a238-47bb-841c-fbf7a77f4863)
 
+![semana8](https://github.com/user-attachments/assets/cb420e32-9d1e-4857-be03-58f96974652a)
 
