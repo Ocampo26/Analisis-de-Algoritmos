@@ -63,3 +63,7 @@ POTENCIA(x, n)
     else:
         return x * POTENCIA(x, n - 1)
 ```
+![semana3__3](https://github.com/user-attachments/assets/5ee71930-98b4-4ce3-8c00-17b502207878)
+![Semana3_](https://github.com/user-attachments/assets/e0e6902c-a238-47bb-841c-fbf7a77f4863)
+
+
