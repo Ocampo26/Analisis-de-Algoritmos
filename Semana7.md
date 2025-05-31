@@ -106,4 +106,8 @@ Esto indica que T(n) y f(n) tienen el **mismo orden de crecimiento**.
 - El análisis se basa en el comportamiento para entradas grandes (n → ∞).
 
 
+![Captura de pantalla 2025-05-27 134340](https://github.com/user-attachments/assets/ce60c980-e0d4-4cad-abb0-e709914a83f7)
+---
+![11111](https://github.com/user-attachments/assets/5c757caa-09cb-461a-8789-afbca245877d)
+
 
