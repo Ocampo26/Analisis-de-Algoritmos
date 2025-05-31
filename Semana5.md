@@ -83,3 +83,5 @@ T(n) pertenece a Θ(f(n)) si existen constantes c₁, c₂ > 0 y n₀ tal que pa
 - Permiten comparar diferentes soluciones y seleccionar las más eficientes.
 - Brassard & Bratley usan un enfoque matemático claro para entender cómo se comportan los algoritmos en función del tamaño de la entrada.
 
+![Semana_5](https://github.com/user-attachments/assets/9ede631b-6185-4e12-ba9a-a34e5932d558)
+
