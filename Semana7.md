@@ -103,4 +103,7 @@ Esto indica que T(n) y f(n) tienen el **mismo orden de crecimiento**.
 
 - Las notaciones asintóticas permiten abstraerse del hardware y enfocarse en la eficiencia algorítmica.  
 - Son esenciales para diseñar y comparar algoritmos.  
-- El análisis se basa en el comportamiento para entradas grandes (n → ∞).  
+- El análisis se basa en el comportamiento para entradas grandes (n → ∞).
+
+
+
